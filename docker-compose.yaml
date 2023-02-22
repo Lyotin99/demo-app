@@ -18,3 +18,5 @@ services:
             - app-network
         environment:
             MYSQL_ROOT_PASSWORD: "12345"
+networks:
+    app-network:
